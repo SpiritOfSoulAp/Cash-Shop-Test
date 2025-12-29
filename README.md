@@ -25,9 +25,8 @@ This project demonstrates a Cash Shop system with rental items, server-side vali
 
 ### Database (MySQL)
 The system uses **MySQL** as the database. You can choose one of the following options:
-
-- Review the table structure using `cash_shop_database_schema.txt`, or
-- Import `cash_shop_db.sql` directly into MySQL.
+- Review the table structure using [cash_shop_db.sql](cash_shop_db.sql), or
+- Import [cash_shop_database_schema.txt](cash_shop_database_schema.txt) directly into MySQL.
 
 Please make sure that:
 - The MySQL server is running
@@ -36,8 +35,8 @@ Please make sure that:
 ---
 ### Backend (Golang)
 
-1. Navigate to the `backend` directory.
-2. Edit the `.env` file:
+1. Navigate to the [backend](backend) directory.
+2. Edit the [.env](backend/.env) file:
 
 ```env
 SQLDSN=root:123456@tcp(127.0.0.1:3306)/cash_shop_db?charset=utf8&parseTime=True&loc=Local
